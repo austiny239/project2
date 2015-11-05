@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<style>
+
+#image {
+    position: absolute;
+}
+#container2
+{
+    height:1350px;
+    width:400px;
+    position:relative;
+}
+
+#text2
+{
+    font-family:helvetica;
+    z-index:100;
+    position:relative;    
+    color:white;
+    font-size:22px;
+    font-weight:normal;
+    left:100px;
+    top:100px;
+}
+
+#header2
+{
+    font-family:helvetica;
+    z-index:100;
+    position:relative;    
+    color:white;
+    font-size:40px;
+    font-weight:bold;
+    left:100px;
+    top:100px;
+}
+
+#continue {
+    font-family: helvetica;
+    z-index:100;
+    position:absolute;    
+    font-size:40px;
+    font-weight:bold;
+    left:600px;
+    top:100px;
+
+}
+ a {
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+</style>
+
+</head>
+
+<body>
+  <div id="container2">
+    <img id="image" src="http://40.media.tumblr.com/3fc3f88add27e7fa2f4c5dc607b15030/tumblr_n63uviyayQ1qi26jgo1_500.jpg" style="width: 1000px" />
+    <p id="header2">Chapter 2 <br>Skate Gear</p>
+    <p id="text2">After the morning ritual, I like to prepare the most important tool for a skateboarder besides his or her board, the shoes. I prefer the Nike SB Stefan Janoski because of its pointed toe and heel pouch which performs well with my skate style.
+    </p>
+  </div>
+
+      <div id="continue">
+    <a href="http://austiny239.github.io/project2/page-3"> GETTING STARTED </a>
+    </div>
+
+</body>
+</html>
