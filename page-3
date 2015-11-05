@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<style>
+
+#image {
+    position: absolute;
+}
+
+#container3
+{
+    height:718px;
+    width:800px;
+    position:relative;
+}
+
+#text3
+{
+    font-family:helvetica;
+    z-index:100;
+    position:relative;    
+    color:white;
+    font-size:22px;
+    font-weight:normal;
+    left:50px;
+    top:100px;
+}
+
+#header3
+{
+    font-family:helvetica;
+    z-index:100;
+    position:relative;    
+    color:white;
+    font-size:40px;
+    font-weight:bold;
+    left:50px;
+    top:100px;
+}
+
+#continue {
+    font-family: helvetica;
+    z-index:100;
+    position:absolute;    
+    font-size:40px;
+    font-weight:bold;
+    left:700px;
+    top:500px;
+
+}
+ a {
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+</style>
+
+</head>
+
+<body>
+  <div id="container3">
+    <img id="image" src="http://37.media.tumblr.com/1bd4e35452f4b9aa805963ab01b506a2/tumblr_mn4v8tORSO1s572ulo1_500.gif"style="width: 1000px"/>
+    <p id="header3">Chapter 3 <br>Ready to leave</p>
+    <p id="text3">Alright, time to start the day. <br>I'm not sure what I'm in the mood for. <br>Should I skate inside or outside? <br>I got two options, theres Orchard Skateshop, <br>which has an amazing kidney bowl, <br>or the streets, which has unknown spots <br>that we could discover.</p>
+  </div>
+
+        <div id="continue">
+    <a href="http://austiny239.github.io/project2/page-4"> TO ORCHARD </a>
+    </div>
+
+</body>
+</html>
