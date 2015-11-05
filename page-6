@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<style>
+
+#image {
+    position: absolute;
+}
+#container
+{
+    height:1350px;
+    width:400px;
+    position:relative;
+}
+
+#text
+{
+    font-family:helvetica;
+    z-index:100;
+    position:relative;    
+    color:white;
+    font-size:22px;
+    font-weight:normal;
+    left:100px;
+    top:50px;
+}
+
+#header
+{
+    font-family:helvetica;
+    z-index:100;
+    position:relative;    
+    color:white;
+    font-size:40px;
+    font-weight:bold;
+    left:100px;
+    top:50px;
+}
+#continue {
+    font-family: helvetica;
+    z-index:100;
+    position:absolute;    
+    font-size:40px;
+    font-weight:bold;
+    left:700px;
+    top:500px;
+
+}
+ a {
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+</style>
+
+</head>
+
+<body>
+  <div id="container">
+    <img id="image" src="http://www.noozhawk.com/images/uploads/070313SkatersPointCop630x340.jpg" style="width: 1000px" />
+    <p id="header">Chapter 6 <br>Busted
+    <p id="text">Fuck. Like I said, the cops were onto us. This happens occationally, but hopefully if we're nice, they'll let us go with a warning and not give us tickets.
+    </p>
+  </div>
+
+    <div id="continue">
+    <a href="http://austiny239.github.io/project2/page-7"> TIME TO GO </a>
+    </div>
+
+</body>
+</html>
