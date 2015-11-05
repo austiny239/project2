@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<style>
+
+#video {
+    position: absolute;
+}
+#container
+{
+    height:1350px;
+    width:400px;
+    position:relative;
+}
+
+#text
+{
+    font-family:helvetica;
+    z-index:100;
+    position:relative;    
+    color:black;
+    font-size:22px;
+    font-weight:normal;
+    left:950px;
+    top:0px;
+}
+
+#header
+{
+    font-family:helvetica;
+    z-index:100;
+    position:relative;    
+    color:black;
+    font-size:40px;
+    font-weight:bold;
+    left:950px;
+    top:0px;
+}
+#continue {
+    font-family: helvetica;
+    z-index:100;
+    position:absolute;    
+    font-size:40px;
+    font-weight:bold;
+    left:950px;
+    top:500px;
+
+}
+ a {
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+</style>
+
+</head>
+
+<body>
+  <div id="container">
+    <iframe id="video" width="900" height="600" src="https://www.youtube.com/embed/Y_nMiiITJag" frameborder="0" allowfullscreen></iframe>
+    <p id="header">Chapter 6 <br>Shreded
+    <p id="text">It's always great to skate with friends. We push ourselves and compete with each other through friendly competitions. As a result, we recorded these awesome tricks going down in Orchard's bowl.
+    </p>
+  </div>
+
+    <div id="continue">
+    <a href="http://austiny239.github.io/project2/page-7"> TIME TO GO </a>
+    </div>
+
+</body>
+</html>
